@@ -1,0 +1,102 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BAL\BLL.csproj", "{508EC9A9-498E-4947-A404-64FF0B6ADBCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{93C30106-4F06-4FD3-B98A-FBEF6DC38C49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business Access Layer", "2. Business Access Layer", "{9C588B2A-0378-46FB-B642-C8C3E839EBAD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Access Layer", "3. Data Access Layer", "{226967EE-DEC1-4F78-857B-FBD371CCF94B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{79B7EF63-ABE8-4E99-AA28-3237BD27795C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserRegistrationForm", "UserRegistrationForm\UserRegistrationForm.csproj", "{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dto", "Dto", "{AAB83DBB-239B-4EF7-BF03-C1FBE608887A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "TEST\UnitTests.csproj", "{CF4A4759-3AFD-4723-9F6E-E957992D054A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{D1A279AD-B1F6-48D1-8B39-8A4F6C43A1EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External System Access Layer (Proxy)", "External System Access Layer (Proxy)", "{B5C83AD1-E293-4B3F-996D-674E6B717925}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalSystem.Service", "ExternalSystem.Service\ExternalSystem.Service.csproj", "{A35E55B7-63AC-4C35-94CD-6827F1D89AA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{508EC9A9-498E-4947-A404-64FF0B6ADBCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{508EC9A9-498E-4947-A404-64FF0B6ADBCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{508EC9A9-498E-4947-A404-64FF0B6ADBCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{508EC9A9-498E-4947-A404-64FF0B6ADBCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B7EF63-ABE8-4E99-AA28-3237BD27795C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B7EF63-ABE8-4E99-AA28-3237BD27795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B7EF63-ABE8-4E99-AA28-3237BD27795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B7EF63-ABE8-4E99-AA28-3237BD27795C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4A4759-3AFD-4723-9F6E-E957992D054A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4A4759-3AFD-4723-9F6E-E957992D054A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4A4759-3AFD-4723-9F6E-E957992D054A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4A4759-3AFD-4723-9F6E-E957992D054A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35E55B7-63AC-4C35-94CD-6827F1D89AA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35E55B7-63AC-4C35-94CD-6827F1D89AA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35E55B7-63AC-4C35-94CD-6827F1D89AA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35E55B7-63AC-4C35-94CD-6827F1D89AA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{508EC9A9-498E-4947-A404-64FF0B6ADBCB} = {9C588B2A-0378-46FB-B642-C8C3E839EBAD}
+		{79B7EF63-ABE8-4E99-AA28-3237BD27795C} = {226967EE-DEC1-4F78-857B-FBD371CCF94B}
+		{F6B9FDC6-9F8A-4C85-BBDD-97CB7811C952} = {93C30106-4F06-4FD3-B98A-FBEF6DC38C49}
+		{F40DFD2E-429A-40D4-B0C0-66F21C90AFA1} = {AAB83DBB-239B-4EF7-BF03-C1FBE608887A}
+		{CF4A4759-3AFD-4723-9F6E-E957992D054A} = {D1A279AD-B1F6-48D1-8B39-8A4F6C43A1EA}
+		{A35E55B7-63AC-4C35-94CD-6827F1D89AA9} = {B5C83AD1-E293-4B3F-996D-674E6B717925}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DAL\\DAL.csproj
+		SccProjectTopLevelParentUniqueName1 = UserRegistration.sln
+		SccProjectName1 = DAL
+		SccLocalPath1 = DAL
+		SccProjectUniqueName2 = UserRegistrationForm\\UserRegistrationForm.csproj
+		SccProjectTopLevelParentUniqueName2 = UserRegistration.sln
+		SccProjectName2 = UserRegistrationForm
+		SccLocalPath2 = UserRegistrationForm
+		SccProjectUniqueName3 = BAL\\BLL.csproj
+		SccProjectTopLevelParentUniqueName3 = UserRegistration.sln
+		SccProjectName3 = BAL
+		SccLocalPath3 = BAL
+		SccProjectUniqueName4 = DTO\\DTO.csproj
+		SccProjectTopLevelParentUniqueName4 = UserRegistration.sln
+		SccProjectName4 = DTO
+		SccLocalPath4 = DTO
+		SccProjectUniqueName5 = TEST\\UnitTests.csproj
+		SccProjectTopLevelParentUniqueName5 = UserRegistration.sln
+		SccProjectName5 = TEST
+		SccLocalPath5 = TEST
+		SccProjectUniqueName6 = ExternalSystem.Service\\ExternalSystem.Service.csproj
+		SccProjectTopLevelParentUniqueName6 = UserRegistration.sln
+		SccProjectName6 = ExternalSystem.Service
+		SccLocalPath6 = ExternalSystem.Service
+	EndGlobalSection
+EndGlobal

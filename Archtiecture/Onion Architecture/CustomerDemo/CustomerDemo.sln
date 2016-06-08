@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDemo.Core", "CustomerDemo\CustomerDemo.Core.csproj", "{C215ECF7-333A-4841-A565-8590BD9CF4DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Infrastructure", "4. Infrastructure", "{3D29DEDE-E361-4A90-9EAC-76E5B4D955D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDemo.Infrastructure", "CustomerDemo.Infrastructure\CustomerDemo.Infrastructure.csproj", "{3BE73C41-4AA0-4283-9A19-0CA432E27C1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDemo.DependencyInjection", "CustomerDemo.DependencyInjection\CustomerDemo.DependencyInjection.csproj", "{6A832A44-20CA-4C90-B36D-E4515AE3152C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerDemo.Logging", "CustomerDemo.Logging\CustomerDemo.Logging.csproj", "{CBEA71AC-7476-4360-8559-D3F43996A123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Core", "1. Core", "{63C34B7B-F6E9-418C-92EB-1DBD265FF4E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service Interfaces", "2. Service Interfaces", "{8FEDB105-DFBD-4B23-9052-606882847683}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Services", "3. Services", "{74D1DD5D-81B2-48B8-AB5F-9498D345E071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5. User Interface", "5. User Interface", "{E7746A04-FF74-44D0-A5B2-A3EBE5468A12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C215ECF7-333A-4841-A565-8590BD9CF4DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C215ECF7-333A-4841-A565-8590BD9CF4DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C215ECF7-333A-4841-A565-8590BD9CF4DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C215ECF7-333A-4841-A565-8590BD9CF4DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BE73C41-4AA0-4283-9A19-0CA432E27C1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BE73C41-4AA0-4283-9A19-0CA432E27C1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BE73C41-4AA0-4283-9A19-0CA432E27C1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BE73C41-4AA0-4283-9A19-0CA432E27C1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A832A44-20CA-4C90-B36D-E4515AE3152C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A832A44-20CA-4C90-B36D-E4515AE3152C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A832A44-20CA-4C90-B36D-E4515AE3152C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A832A44-20CA-4C90-B36D-E4515AE3152C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEA71AC-7476-4360-8559-D3F43996A123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEA71AC-7476-4360-8559-D3F43996A123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEA71AC-7476-4360-8559-D3F43996A123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEA71AC-7476-4360-8559-D3F43996A123}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C215ECF7-333A-4841-A565-8590BD9CF4DD} = {63C34B7B-F6E9-418C-92EB-1DBD265FF4E9}
+		{3BE73C41-4AA0-4283-9A19-0CA432E27C1A} = {3D29DEDE-E361-4A90-9EAC-76E5B4D955D0}
+		{6A832A44-20CA-4C90-B36D-E4515AE3152C} = {3D29DEDE-E361-4A90-9EAC-76E5B4D955D0}
+		{CBEA71AC-7476-4360-8559-D3F43996A123} = {3D29DEDE-E361-4A90-9EAC-76E5B4D955D0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CustomerDemo.DependencyInjection\\CustomerDemo.DependencyInjection.csproj
+		SccProjectTopLevelParentUniqueName1 = CustomerDemo.sln
+		SccProjectName1 = CustomerDemo.DependencyInjection
+		SccLocalPath1 = CustomerDemo.DependencyInjection
+		SccProjectUniqueName2 = CustomerDemo.Infrastructure\\CustomerDemo.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName2 = CustomerDemo.sln
+		SccProjectName2 = CustomerDemo.Infrastructure
+		SccLocalPath2 = CustomerDemo.Infrastructure
+		SccProjectUniqueName3 = CustomerDemo.Logging\\CustomerDemo.Logging.csproj
+		SccProjectTopLevelParentUniqueName3 = CustomerDemo.sln
+		SccProjectName3 = CustomerDemo.Logging
+		SccLocalPath3 = CustomerDemo.Logging
+		SccProjectUniqueName4 = CustomerDemo\\CustomerDemo.Core.csproj
+		SccProjectTopLevelParentUniqueName4 = CustomerDemo.sln
+		SccProjectName4 = CustomerDemo
+		SccLocalPath4 = CustomerDemo
+	EndGlobalSection
+EndGlobal

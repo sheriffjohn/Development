@@ -1,0 +1,5 @@
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\ExternalSystem.Service\bin\Debug\ExternalSystem.Service.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\ExternalSystem.Service\bin\Debug\ExternalSystem.Service.pdb
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\ExternalSystem.Service\obj\Debug\ExternalSystem.Service.csprojResolveAssemblyReference.cache
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\ExternalSystem.Service\obj\Debug\ExternalSystem.Service.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\ExternalSystem.Service\obj\Debug\ExternalSystem.Service.pdb

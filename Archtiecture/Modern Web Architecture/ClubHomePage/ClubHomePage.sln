@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Client Layer (Browser)", "1. Client Layer (Browser)", "{30178A36-42AB-4C29-AA61-8AE47FB3EE43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Web Layer (Server)", "2. Web Layer (Server)", "{35CC2592-C448-49EC-BBDE-03ED0D20833C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{818C0C55-89C0-4252-82C3-5913D3305DC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain-Business Layer", "2. Domain-Business Layer", "{255832BC-22F3-4105-9196-929525F5DDFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data Layer", "3. Data Layer", "{337FB113-0BED-4156-BB8D-F5C3D5028C81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Persistance Layer", "3. Persistance Layer", "{0991C0E1-C003-434D-821D-67F4CDA24ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubHomePage.Domain", "ClubHomePage.Domain\ClubHomePage.Domain.csproj", "{2E00AA9F-91F7-4136-8204-4D1176185A6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubHomepage.WebAPI", "ClubHomepage.WebAPI\ClubHomepage.WebAPI.csproj", "{C6D0E99E-51A2-4813-AF8D-248186462CEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubHomepage.WebAPI.Tests", "ClubHomepage.WebAPI.Tests\ClubHomepage.WebAPI.Tests.csproj", "{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClubHomePage.Repository", "ClubHomePage.Repository\ClubHomePage.Repository.csproj", "{3480B38C-12CB-4D65-BA97-CF342ABC60C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E00AA9F-91F7-4136-8204-4D1176185A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E00AA9F-91F7-4136-8204-4D1176185A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E00AA9F-91F7-4136-8204-4D1176185A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E00AA9F-91F7-4136-8204-4D1176185A6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6D0E99E-51A2-4813-AF8D-248186462CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6D0E99E-51A2-4813-AF8D-248186462CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6D0E99E-51A2-4813-AF8D-248186462CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6D0E99E-51A2-4813-AF8D-248186462CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3480B38C-12CB-4D65-BA97-CF342ABC60C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3480B38C-12CB-4D65-BA97-CF342ABC60C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3480B38C-12CB-4D65-BA97-CF342ABC60C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3480B38C-12CB-4D65-BA97-CF342ABC60C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{818C0C55-89C0-4252-82C3-5913D3305DC5} = {35CC2592-C448-49EC-BBDE-03ED0D20833C}
+		{255832BC-22F3-4105-9196-929525F5DDFC} = {35CC2592-C448-49EC-BBDE-03ED0D20833C}
+		{337FB113-0BED-4156-BB8D-F5C3D5028C81} = {35CC2592-C448-49EC-BBDE-03ED0D20833C}
+		{2E00AA9F-91F7-4136-8204-4D1176185A6E} = {255832BC-22F3-4105-9196-929525F5DDFC}
+		{C6D0E99E-51A2-4813-AF8D-248186462CEC} = {818C0C55-89C0-4252-82C3-5913D3305DC5}
+		{EE6ACB8E-940D-4F07-B1D9-A3E3871A4CF2} = {818C0C55-89C0-4252-82C3-5913D3305DC5}
+		{3480B38C-12CB-4D65-BA97-CF342ABC60C2} = {337FB113-0BED-4156-BB8D-F5C3D5028C81}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ClubHomePage.Domain\\ClubHomePage.Domain.csproj
+		SccProjectTopLevelParentUniqueName1 = ClubHomePage.sln
+		SccProjectName1 = ClubHomePage.Domain
+		SccLocalPath1 = ClubHomePage.Domain
+		SccProjectUniqueName2 = ClubHomepage.WebAPI\\ClubHomepage.WebAPI.csproj
+		SccProjectTopLevelParentUniqueName2 = ClubHomePage.sln
+		SccProjectName2 = ClubHomepage.WebAPI
+		SccLocalPath2 = ClubHomepage.WebAPI
+		SccProjectUniqueName3 = ClubHomepage.WebAPI.Tests\\ClubHomepage.WebAPI.Tests.csproj
+		SccProjectTopLevelParentUniqueName3 = ClubHomePage.sln
+		SccProjectName3 = ClubHomepage.WebAPI.Tests
+		SccLocalPath3 = ClubHomepage.WebAPI.Tests
+		SccProjectUniqueName4 = ClubHomePage.Repository\\ClubHomePage.Repository.csproj
+		SccProjectTopLevelParentUniqueName4 = ClubHomePage.sln
+		SccProjectName4 = ClubHomePage.Repository
+		SccLocalPath4 = ClubHomePage.Repository
+	EndGlobalSection
+EndGlobal

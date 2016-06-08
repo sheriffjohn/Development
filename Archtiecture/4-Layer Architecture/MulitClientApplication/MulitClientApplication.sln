@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainService", "Service\DomainService.csproj", "{372C62AE-D677-4418-8BA8-89A4045985CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{7730B15C-2DDA-4F09-B438-1C60C6A3205B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service Layer", "2. Service Layer", "{7051521C-62EA-43C0-89ED-10BA155EC6F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Business Layer", "3. Business Layer", "{C8D58E61-C1DF-4D58-A06D-2ADA15EB5431}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Data Layer", "4. Data Layer", "{0CA5ACDF-3A05-4C34-B31C-1B141C5548AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessObjects", "BusinessObjects\BusinessObjects.csproj", "{95D30793-0B42-47FC-90C9-45028E3ABC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372C62AE-D677-4418-8BA8-89A4045985CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372C62AE-D677-4418-8BA8-89A4045985CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372C62AE-D677-4418-8BA8-89A4045985CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372C62AE-D677-4418-8BA8-89A4045985CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95D30793-0B42-47FC-90C9-45028E3ABC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95D30793-0B42-47FC-90C9-45028E3ABC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95D30793-0B42-47FC-90C9-45028E3ABC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95D30793-0B42-47FC-90C9-45028E3ABC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{372C62AE-D677-4418-8BA8-89A4045985CD} = {7051521C-62EA-43C0-89ED-10BA155EC6F5}
+		{95D30793-0B42-47FC-90C9-45028E3ABC97} = {C8D58E61-C1DF-4D58-A06D-2ADA15EB5431}
+		{0EF5F7F3-6686-49BF-84DE-2BF6B9BBC3BE} = {0CA5ACDF-3A05-4C34-B31C-1B141C5548AA}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BusinessObjects\\BusinessObjects.csproj
+		SccProjectTopLevelParentUniqueName1 = MulitClientApplication.sln
+		SccProjectName1 = BusinessObjects
+		SccLocalPath1 = BusinessObjects
+		SccProjectUniqueName2 = DataObjects\\DataObjects.csproj
+		SccProjectTopLevelParentUniqueName2 = MulitClientApplication.sln
+		SccProjectName2 = DataObjects
+		SccLocalPath2 = DataObjects
+		SccProjectUniqueName3 = Service\\DomainService.csproj
+		SccProjectTopLevelParentUniqueName3 = MulitClientApplication.sln
+		SccProjectName3 = Service
+		SccLocalPath3 = Service
+	EndGlobalSection
+EndGlobal

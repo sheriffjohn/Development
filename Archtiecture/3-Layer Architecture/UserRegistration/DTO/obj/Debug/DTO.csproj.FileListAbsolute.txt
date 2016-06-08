@@ -1,0 +1,5 @@
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\DTO\bin\Debug\DTO.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\DTO\bin\Debug\DTO.pdb
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\DTO\obj\Debug\DTO.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\3-Layer Architecture\UserRegistration\DTO\obj\Debug\DTO.pdb

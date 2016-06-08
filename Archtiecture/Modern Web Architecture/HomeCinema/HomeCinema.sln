@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCinema.Entities", "HomeCinema.Entities\HomeCinema.Entities.csproj", "{3E8BB046-05BD-4D27-94A7-C13AD4F3E192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCinema.Data", "HomeCinema.Data\HomeCinema.Data.csproj", "{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCinema.Services", "HomeCinema.Services\HomeCinema.Services.csproj", "{2B0131AB-CD43-47FE-8D0E-2C80EE069762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeCinema.Web", "HomeCinema.Web\HomeCinema.Web.csproj", "{32415527-525D-490D-8B46-7BA4C3D45F7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Layer", "1. Presentation Layer", "{F97D0865-7F15-4FC6-BC08-CEAAE3B25AE6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Domain-Business Layer", "3. Domain-Business Layer", "{3505253B-9C05-4AE9-AB39-ED9E83AF1D8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Data Layer", "4. Data Layer", "{D80FD703-3DDE-4E5B-A21B-F20F1CB8BE79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Service Layer", "2. Service Layer", "{60CC10B6-911E-4CBA-A19E-DAD1D2EE238A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E8BB046-05BD-4D27-94A7-C13AD4F3E192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8BB046-05BD-4D27-94A7-C13AD4F3E192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8BB046-05BD-4D27-94A7-C13AD4F3E192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8BB046-05BD-4D27-94A7-C13AD4F3E192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B0131AB-CD43-47FE-8D0E-2C80EE069762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B0131AB-CD43-47FE-8D0E-2C80EE069762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B0131AB-CD43-47FE-8D0E-2C80EE069762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B0131AB-CD43-47FE-8D0E-2C80EE069762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32415527-525D-490D-8B46-7BA4C3D45F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32415527-525D-490D-8B46-7BA4C3D45F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32415527-525D-490D-8B46-7BA4C3D45F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32415527-525D-490D-8B46-7BA4C3D45F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E8BB046-05BD-4D27-94A7-C13AD4F3E192} = {3505253B-9C05-4AE9-AB39-ED9E83AF1D8B}
+		{FDB8609C-3FA4-425C-BA71-4A71A7C43EC6} = {D80FD703-3DDE-4E5B-A21B-F20F1CB8BE79}
+		{2B0131AB-CD43-47FE-8D0E-2C80EE069762} = {60CC10B6-911E-4CBA-A19E-DAD1D2EE238A}
+		{32415527-525D-490D-8B46-7BA4C3D45F7C} = {F97D0865-7F15-4FC6-BC08-CEAAE3B25AE6}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HomeCinema.Entities\\HomeCinema.Entities.csproj
+		SccProjectTopLevelParentUniqueName1 = HomeCinema.sln
+		SccProjectName1 = HomeCinema.Entities
+		SccLocalPath1 = HomeCinema.Entities
+		SccProjectUniqueName2 = HomeCinema.Data\\HomeCinema.Data.csproj
+		SccProjectTopLevelParentUniqueName2 = HomeCinema.sln
+		SccProjectName2 = HomeCinema.Data
+		SccLocalPath2 = HomeCinema.Data
+		SccProjectUniqueName3 = HomeCinema.Services\\HomeCinema.Services.csproj
+		SccProjectTopLevelParentUniqueName3 = HomeCinema.sln
+		SccProjectName3 = HomeCinema.Services
+		SccLocalPath3 = HomeCinema.Services
+		SccProjectUniqueName4 = HomeCinema.Web\\HomeCinema.Web.csproj
+		SccProjectTopLevelParentUniqueName4 = HomeCinema.sln
+		SccProjectName4 = HomeCinema.Web
+		SccLocalPath4 = HomeCinema.Web
+	EndGlobalSection
+EndGlobal

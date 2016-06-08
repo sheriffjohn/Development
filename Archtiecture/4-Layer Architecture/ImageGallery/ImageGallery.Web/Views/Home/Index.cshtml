@@ -1,0 +1,60 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="container">
+    <div class="row"></div>
+        <div id="formSection"></div>
+        <div class="col-sm-4">
+            <h3>@ViewBag.TheMessage</h3>
+            @using (Ajax.BeginForm(new AjaxOptions
+            {
+                HttpMethod = "post",
+                Url ="/api/webapi",
+                InsertionMode = InsertionMode.Replace,
+                UpdateTargetId = "formSection"
+            }))
+            {
+                <textarea name="message"></textarea>
+                    <input type="submit" values="Send" />
+            }
+        </div>
+        <div class="col-sm-4">
+            <div id="formSection">
+                <h3>@ViewBag.TheMessage</h3>
+                @using (Ajax.BeginForm(new AjaxOptions
+                {
+                    HttpMethod = "post",
+                    InsertionMode = InsertionMode.Replace,
+                    UpdateTargetId = "formSection"
+                }))
+                {
+                    <textarea name="message"></textarea>
+                        <input type="submit" values="Send" />
+                }
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <h3>@ViewBag.TheMessage</h3>
+            @using (Ajax.BeginForm(new AjaxOptions
+            {
+                HttpMethod = "post",
+                InsertionMode = InsertionMode.Replace,
+                UpdateTargetId = "formSection"
+            }))
+            {
+                <textarea name="message"></textarea>
+                    <input type="submit" values="Send" />
+            }
+        </div>
+    </div>
+</div>
+
+
+
+@section scripts
+        {
+    <script src="~/Scripts/jquery.unobtrusive-ajax.min.js"></script>
+}
+@*</div>*@

@@ -1,0 +1,135 @@
+﻿@model ImageGallery.Web.Models.AlbumViewModel
+
+@{
+    ViewBag.Title = "Get Products";
+    //AjaxOptions ajaxOptions = new AjaxOptions
+    //{
+    //    UpdateTargetId = "productsTable",
+    //    OnBegin = "OnAjaxRequestBegin"
+    //};
+
+    AjaxOptions ajaxOptions2 = new AjaxOptions
+    {
+        Url = "/api/webapi",
+        UpdateTargetId = "lblMessage3"
+    };
+
+    AjaxOptions ajaxOptions3 = new AjaxOptions
+    {
+        HttpMethod = "GET",
+        Url = "/api/webapi",
+        UpdateTargetId = "lblMessage5"
+    };
+
+}
+<script type="text/javascript">
+    function OnAjaxRequestBegin() {
+        alert("This is the OnBegin Callback");
+    }
+</script>
+
+@*<h2>Get Products</h2>
+<table style="background-color: lightcoral">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Category</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody id="productsTable">
+        @Html.Action("GetProductData", new { selectedCategory = Model })
+    </tbody>
+</table>*@
+
+@*@using (Ajax.BeginForm("GetProductData", ajaxOptions))
+{
+    <div>
+        @Html.DropDownList("selectedCategory", new SelectList(
+            new[] { "All" }.Concat(Enum.GetNames(typeof(Category)))))
+        <button type="submit">Submit</button>
+    </div>
+}*@
+
+
+@using (Html.BeginForm())
+{
+    <button id="btnGetStudents">Get Students1</button> <br />
+    <div id="lblMessage"></div>
+}
+
+@section Scripts {
+    <script type="text/javascript">
+        $(function () {
+            $('#btnGetStudents').on("click", function () {
+                $.ajax({
+                    type: "GET",
+                    url: '/api/photoapi',
+                    datatype: 'json',
+                    cache: false,
+                })
+                .success(function (data) {
+                    var Output = "";
+                    for (var i = 0; i < data.length; i++) {
+                        Output += "<hr />";
+                        Output += "<b>Student ID : </b>" + data[i] + "<br />";
+                    }
+                    $('#lblMessage').html(Output);
+                })
+                .error(function (xhr, ajaxOptions, thrownError) {
+                    $('#lblMessage').html("Error : An error occured");
+                });
+                return false;
+            });
+
+            $('#btnGetStudent3').on("click", function () {
+                var StudentID = $("#txtStudentID").val();
+                $.ajax({
+                    type: "GET",
+                    url: '/api/webapi/' + StudentID,
+                    datatype: 'json',
+                    cache: false,
+                })
+                .success(function (data) {
+                    var Output = "";
+                    //for (var i = 0; i < data.length; i++) {
+                    //    Output += "<hr />";
+                    //    Output += "<b>Student ID : </b>" + data[i] + "<br />";
+                    //}
+
+                    Output += "<b>Student ID : </b>" + data + "<br />";
+                    $('#lblMessage4').html(Output);
+                })
+                .error(function (xhr, ajaxOptions, thrownError) {
+                    $('#lblMessage4').html("Error : An error occured");
+                });
+                return false;
+            });
+
+        });
+    </script>
+}
+
+@using (Html.BeginForm())
+{
+    <br />
+    <button id="btnGetStudent3">Get Student3</button> <input id="txtStudentID" type="text" value="1" /> <br />
+    <div id="lblMessage4"></div>
+}
+
+<br /><br />hepp<br />
+@using (Ajax.BeginForm("", "", null, ajaxOptions2, new { }))
+{
+    <div class="buttonContainer">
+
+        <input type="submit" value="Save" />
+
+    </div><br />
+    <div id="lblMessage3"></div>
+}
+<br />
+
+@(Ajax.ActionLink("Test", "", "", null, ajaxOptions3))
+<div id="lblMessage5"></div>

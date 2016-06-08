@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc", "Mvc\Mvc.csproj", "{6384769C-5CB1-4679-89DA-8EBE0136BE48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mvc.Tests", "Mvc.Tests\Mvc.Tests.csproj", "{94247075-A899-4CFF-833F-50AA30B5E93C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Presentation Tier", "1. Presentation Tier", "{58112F33-AC85-40E0-899B-66CBD3F8345C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Data Tier", "2. Data Tier", "{28E5E5C9-75DD-42FD-8779-F28CC86A45C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6384769C-5CB1-4679-89DA-8EBE0136BE48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6384769C-5CB1-4679-89DA-8EBE0136BE48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6384769C-5CB1-4679-89DA-8EBE0136BE48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6384769C-5CB1-4679-89DA-8EBE0136BE48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94247075-A899-4CFF-833F-50AA30B5E93C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94247075-A899-4CFF-833F-50AA30B5E93C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94247075-A899-4CFF-833F-50AA30B5E93C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94247075-A899-4CFF-833F-50AA30B5E93C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6384769C-5CB1-4679-89DA-8EBE0136BE48} = {58112F33-AC85-40E0-899B-66CBD3F8345C}
+		{94247075-A899-4CFF-833F-50AA30B5E93C} = {58112F33-AC85-40E0-899B-66CBD3F8345C}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Mvc.Tests\\Mvc.Tests.csproj
+		SccProjectTopLevelParentUniqueName1 = Client\u0020Server\u00202-Tier.sln
+		SccProjectName1 = Mvc.Tests
+		SccLocalPath1 = Mvc.Tests
+		SccProjectUniqueName2 = Mvc\\Mvc.csproj
+		SccProjectTopLevelParentUniqueName2 = Client\u0020Server\u00202-Tier.sln
+		SccProjectName2 = Mvc
+		SccLocalPath2 = Mvc
+	EndGlobalSection
+EndGlobal

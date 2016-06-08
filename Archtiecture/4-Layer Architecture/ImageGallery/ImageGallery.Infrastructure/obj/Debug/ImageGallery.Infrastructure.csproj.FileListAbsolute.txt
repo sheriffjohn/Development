@@ -1,0 +1,4 @@
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\4-Layer Architecture\ImageGallery\ImageGallery.Infrastructure\bin\Debug\ImageGallery.Infrastructure.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\4-Layer Architecture\ImageGallery\ImageGallery.Infrastructure\bin\Debug\ImageGallery.Infrastructure.pdb
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\4-Layer Architecture\ImageGallery\ImageGallery.Infrastructure\obj\Debug\ImageGallery.Infrastructure.dll
+C:\Users\john\Documents\SigmaTFS\Enterprise Application Development\Archtiecture\4-Layer Architecture\ImageGallery\ImageGallery.Infrastructure\obj\Debug\ImageGallery.Infrastructure.pdb

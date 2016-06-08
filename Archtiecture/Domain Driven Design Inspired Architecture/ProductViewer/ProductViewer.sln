@@ -1,0 +1,100 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Infrastructure", "Product.Infrastructure\Product.Infrastructure.csproj", "{2D6FCFB5-960F-4260-AB75-3742BC733F91}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductDomain", "ProductDomain", "{7F875025-5B92-46EE-8755-292683448558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Model", "Product.Model\Product.Model.csproj", "{DE032790-0A5C-43B6-BB42-24E00064EB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.Service", "Product.Service\Product.Service.csproj", "{EBC22295-D90F-4265-A124-56B4CF72D135}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{9D547600-0FF0-4B2C-8DE8-E10237E7EC45}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CustomerDomain", "CustomerDomain", "{2E6D57A6-C6D2-40C0-AF5D-CF499D4CE6AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Infrastructure", "Customer.Infrasstructure\Customer.Infrastructure.csproj", "{82A237D9-02CD-432C-90A2-8296C2E77FFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Model", "Customer.Model\Customer.Model.csproj", "{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer.Service", "Customer.Service\Customer.Service.csproj", "{B2917D8B-26D2-4385-A2D3-71F099D6ECF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{4693BC59-C1A7-4E10-A15C-E65FDDC7146B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Proxy", "Proxy", "{9FA5F7CD-078F-4AFB-B8E8-D9A18E51D16C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D6FCFB5-960F-4260-AB75-3742BC733F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D6FCFB5-960F-4260-AB75-3742BC733F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D6FCFB5-960F-4260-AB75-3742BC733F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D6FCFB5-960F-4260-AB75-3742BC733F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE032790-0A5C-43B6-BB42-24E00064EB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE032790-0A5C-43B6-BB42-24E00064EB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE032790-0A5C-43B6-BB42-24E00064EB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE032790-0A5C-43B6-BB42-24E00064EB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBC22295-D90F-4265-A124-56B4CF72D135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBC22295-D90F-4265-A124-56B4CF72D135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBC22295-D90F-4265-A124-56B4CF72D135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBC22295-D90F-4265-A124-56B4CF72D135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82A237D9-02CD-432C-90A2-8296C2E77FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82A237D9-02CD-432C-90A2-8296C2E77FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82A237D9-02CD-432C-90A2-8296C2E77FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82A237D9-02CD-432C-90A2-8296C2E77FFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2917D8B-26D2-4385-A2D3-71F099D6ECF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2917D8B-26D2-4385-A2D3-71F099D6ECF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2917D8B-26D2-4385-A2D3-71F099D6ECF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2917D8B-26D2-4385-A2D3-71F099D6ECF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2D6FCFB5-960F-4260-AB75-3742BC733F91} = {7F875025-5B92-46EE-8755-292683448558}
+		{DE032790-0A5C-43B6-BB42-24E00064EB77} = {7F875025-5B92-46EE-8755-292683448558}
+		{EBC22295-D90F-4265-A124-56B4CF72D135} = {7F875025-5B92-46EE-8755-292683448558}
+		{82A237D9-02CD-432C-90A2-8296C2E77FFF} = {2E6D57A6-C6D2-40C0-AF5D-CF499D4CE6AF}
+		{FAFEC2B4-8CD2-4647-A60F-2F690076C0E8} = {2E6D57A6-C6D2-40C0-AF5D-CF499D4CE6AF}
+		{B2917D8B-26D2-4385-A2D3-71F099D6ECF5} = {2E6D57A6-C6D2-40C0-AF5D-CF499D4CE6AF}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://sigmajohnpettersson.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Product.Infrastructure\\Product.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName1 = ProductViewer.sln
+		SccProjectName1 = Product.Infrastructure
+		SccLocalPath1 = Product.Infrastructure
+		SccProjectUniqueName2 = Product.Model\\Product.Model.csproj
+		SccProjectTopLevelParentUniqueName2 = ProductViewer.sln
+		SccProjectName2 = Product.Model
+		SccLocalPath2 = Product.Model
+		SccProjectUniqueName3 = Product.Service\\Product.Service.csproj
+		SccProjectTopLevelParentUniqueName3 = ProductViewer.sln
+		SccProjectName3 = Product.Service
+		SccLocalPath3 = Product.Service
+		SccProjectUniqueName4 = Customer.Model\\Customer.Model.csproj
+		SccProjectTopLevelParentUniqueName4 = ProductViewer.sln
+		SccProjectName4 = Customer.Model
+		SccLocalPath4 = Customer.Model
+		SccProjectUniqueName5 = Customer.Service\\Customer.Service.csproj
+		SccProjectTopLevelParentUniqueName5 = ProductViewer.sln
+		SccProjectName5 = Customer.Service
+		SccLocalPath5 = Customer.Service
+		SccProjectUniqueName6 = Customer.Infrasstructure\\Customer.Infrastructure.csproj
+		SccProjectTopLevelParentUniqueName6 = ProductViewer.sln
+		SccProjectName6 = Customer.Infrasstructure
+		SccLocalPath6 = Customer.Infrasstructure
+	EndGlobalSection
+EndGlobal
